@@ -1,4 +1,4 @@
-import bannerVideo from '../../assets/videos/bannerVideo.MP4'
+import bannerVideo from '../../assets/videos/bannerVideo.mp4'
 
 const MainBanner = () => {
   return (
