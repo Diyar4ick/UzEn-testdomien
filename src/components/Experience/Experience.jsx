@@ -229,13 +229,13 @@ const Experience = () => {
           <p>WANG DA ROLLING STEEL</p>
         </div>
       </section>
-      <section className="exp-page__section7">
+      {/* <section className="exp-page__section7">
         <h2 className="main-title">Группы компаний UET Group</h2>
         <div className="exp-page__section6-card">
           <img src="" alt="" />
           <p className="main-description"></p>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
