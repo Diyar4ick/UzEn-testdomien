@@ -22,7 +22,7 @@ import sert6 from "../../assets/images/serts/sert6.jpg";
 import map2 from "../../assets/images/map.jpg";
 
 import partnersImg1 from "../../assets/images/partners/img1.png";
-import partnersImg2 from "../../assets/images/partners/img2.png";
+import partnersImg2 from "../../assets/images/partners/img2.png"; 
 import partnersImg3 from "../../assets/images/partners/img3.png";
 import partnersImg4 from "../../assets/images/partners/img4.svg";
 import partnersImg5 from "../../assets/images/partners/img5.svg";
@@ -227,6 +227,13 @@ const Experience = () => {
         <div className="exp-page__section6-img">
           <img src={clientsImg12} alt="" />
           <p>WANG DA ROLLING STEEL</p>
+        </div>
+      </section>
+      <section className="exp-page__section7">
+        <h2 className="main-title">Группы компаний UET Group</h2>
+        <div className="exp-page__section6-card">
+          <img src="" alt="" />
+          <p className="main-description"></p>
         </div>
       </section>
     </div>

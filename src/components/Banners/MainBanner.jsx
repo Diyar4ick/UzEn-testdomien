@@ -9,7 +9,7 @@ const MainBanner = () => {
           <div className="main-banner-black">
             <div className="container">
               <h1>
-                Проектирование воздушных и кабельных линий напряжением до 500кВ{" "}
+                Проектирование воздушных и кабельных линий напряжением 500кВ и ниже
                 <span>UZEE</span>
               </h1>
             </div>
@@ -21,7 +21,7 @@ const MainBanner = () => {
               <span className="main-banner-second-span1">
                 <span className="main-banner-second-span2">70</span>
                 <span className="main-banner-second-span3">
-                  <span className="main-banner-second-span4">лет</span>{" "}
+                  <span className="main-banner-second-span4">лет</span>
                   успешной работы
                 </span>
               </span>

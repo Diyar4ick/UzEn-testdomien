@@ -12,6 +12,8 @@ import whatsapp from "../../assets/images/generalIcons/whatsapp.svg";
 import youtube from "../../assets/images/generalIcons/youtube.svg";
 import email from "../../assets/images/generalIcons/email.svg";
 import phone from "../../assets/images/generalIcons/phone.svg";
+import propCompany1 from "../../assets/images/propCompanies/uzassystem.jpg";
+import propCompany2 from "../../assets/images/propCompanies/srepae.jpg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -26,7 +28,7 @@ const Footer = () => {
             <a href="">info@uzee.uz</a>
           </div> 
           <div className="footer__phone">
-            <img src={phone} alt="" />
+            <img src={phone} alt="" /> 
             <div className="footer__phone-numbers">
               <p>(+99855) 520-04-04</p>
               <p>(+99871) 291-87-26</p>
@@ -132,6 +134,21 @@ const Footer = () => {
               </Link>
             </li>
            
+          </ul>
+        </div>
+        <div className="footer__prop-companies">
+          <h3 className="footer-h3">Наши дочерные предприятия</h3>
+          <ul className="footer__map-list">
+            <li>
+              <a href='https://uzassystem.uz/ru/' className="footer__map-item">
+              <img src={propCompany1} alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="https://srepae.com/" className="footer__map-item">
+              <img src={propCompany2} alt="" />
+              </a>
+            </li>
           </ul>
         </div>
         <div className="footer__sert">
